@@ -4433,8 +4433,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.034356803, y: -0.019632488}
-  m_Size: {x: 0.35128635, y: 0.5218381}
+  m_Offset: {x: -0.034356806, y: -0.08292182}
+  m_Size: {x: 0.35128635, y: 0.39525953}
   m_Direction: 0
 --- !u!50 &1124465505
 Rigidbody2D:
@@ -4537,6 +4537,7 @@ MonoBehaviour:
   playerRb: {fileID: 1124465505}
   speed: 1.2
   jumpForce: 213
+  playerAnim: {fileID: 1124465509}
 --- !u!95 &1124465509
 Animator:
   serializedVersion: 3
