@@ -53,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Jump()
     {
+        GetComponent<AudioSource>().Play();
         playerRb.AddForce(Vector2.up * jumpForce);
         isGrounded = false;
         playerAnim.SetTrigger("jump");
