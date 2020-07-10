@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 1.1f;
     public float jumpForce = 220f;
     public Animator playerAnim;
-    bool isGrounded = true;
+    public bool isGrounded = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
                 Jump();
             }
         }
+
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

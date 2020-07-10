@@ -42,7 +42,7 @@ public class Enemy : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            if (transform.position.y + 0.3 < collision.transform.position.y)
+            if (transform.position.y + .3 < collision.transform.position.y)
             {
                 enemyAnim.SetBool("isDead",true);
             }
